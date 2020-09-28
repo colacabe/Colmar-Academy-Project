@@ -109,7 +109,44 @@ ul {
     line-height: 1rem;
 }
 
+/* sections */
+/* cover */
 
+.cover {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
+
+/* Articles */
+
+.articles .others .card-pic .description a{
+    color: #28bfb2;
+}
+
+/* Courses */
+
+.courses h1 {
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Thesis */
+
+.thesis {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis h1 {
+    text-align: center;
+}
 /*Header for Desktop*/
 
 @media only screen and (min-width: 801px) {
