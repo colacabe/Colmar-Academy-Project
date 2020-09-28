@@ -37,8 +37,49 @@ main {
     top: 4rem;
 }
 
+/* Patterns */
+ 
+button {
+    height: 4rem;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    flex-shrink: 1;
+    border-radius: 2px;
+}
 
+.white {
+    background-color: white;
+}
 
+.dark {
+    background-color: #d8d8d8;
+}
+
+/* Text styles */
+
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+h3 {
+    font-size: 1rem;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
 
 /*Header for Desktop*/
 
