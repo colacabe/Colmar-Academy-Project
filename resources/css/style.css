@@ -350,5 +350,36 @@ ul {
     }
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 800px) {
+
+    .desktop {
+        display: none;
+    }
+
+    /* Patterns */
+
+    button {
+        width: 100%;
+    }
+
+    .dark {
+        background-color: white;
+    }
+
+    /* Text Styles */
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        line-height: 1.6rem;
+    }
+
+}
+
+
 
 
