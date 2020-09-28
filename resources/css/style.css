@@ -10,10 +10,16 @@ body {
     flex-direction: column;
 }
 
-
-
+footer {
+    padding: 1rem 1.5rem;
+    position: relative;
+    top: 4rem;
+    flex-direction: row;
+    border-top: 1px solid #d8d8d8;
+}
 
 /*Both Desktop and Mobile layout*/
+
 header {
     background-color: #ffffff;
     height: 4rem;
@@ -24,6 +30,11 @@ header {
     display: flex;
     flex-direction: row;
     z-index: 1000; 
+}
+
+main {
+    position: relative;
+    top: 4rem;
 }
 
 
