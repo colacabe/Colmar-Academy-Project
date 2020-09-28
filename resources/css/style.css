@@ -309,5 +309,46 @@ ul {
     .course .description {
         padding: 0 1rem;
     }
+
+    /* Thesis */
+
+    .thesis-content .feature {
+        padding-top: 0;
+    }
+
+    .thesis-content .feature .picture {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .thesis-content .feature {
+        padding-top: 0;
+    }
+
+    .thesis-content .feature .picture {
+        width: 100%;
+    }
+
+    .thesis-content .feature .picture video {
+        width: 100%;
+    }
+
+    .thesis-content .others .card-pic {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .thesis-content .others .card-pic .picture {
+        width: 35%;
+    }
+
+    .thesis-content .others .card-pic .picture img {
+        width: 100%;
+        height: auto;
+    }
 }
+
+
 
