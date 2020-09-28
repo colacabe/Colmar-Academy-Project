@@ -81,6 +81,35 @@ p {
     line-height: 1.2rem;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.ligt {
+    font-weight: lighter;
+}
+
+.caption {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+    line-height: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1rem;
+}
+
+
 /*Header for Desktop*/
 
 @media only screen and (min-width: 801px) {
