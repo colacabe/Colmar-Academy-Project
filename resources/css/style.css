@@ -243,5 +243,71 @@ ul {
         flex-direction: column;
         justify-content: center;
     }
+
+    /* Articles */
+
+    .articles {
+        flex-direction: row;
+    }
+
+    .articles .feature .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .articles .others {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles .others .card-pic {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .articles .others .card-pic .picture {
+        width: 35%;
+    }
+
+    .articles .others .card-pic .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Courses */
+
+    .courses {
+        background-color: #d8d8d8;
+        padding: 2rem 3.5rem;
+    }
+
+    .courses .course {
+        width: 30%;
+        background-color: white;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin: 0 1rem;
+    }
+
+    .courses .up-row, .courses .down-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .courses .up-row {
+        margin-bottom: 2rem;
+    }
+
+    .courses .course .picture {
+        width: 100%;
+    }
+
+    .courses .course . picture img {
+        width: 100%;
+    }
+
+    .course .description {
+        padding: 0 1rem;
+    }
 }
 
